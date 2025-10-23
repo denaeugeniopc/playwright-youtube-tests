@@ -18,15 +18,20 @@ The test covers:
 
 ---
 
-### Setup
+## Setup
 
-1. Clone the repo:
-   git clone https://github.com/denaeugeniopc/playwright-youtube-tests.git
-   cd youtube-automation-test
+1. Clone the repository:
+git clone https://github.com/denaeugeniopc/playwright-youtube-tests.git
+cd youtube-automation-test
 2. Install dependencies (if needed):
-   npm install
-   npx playwright install 
+npm install
+npx playwright install 
 
-#### Running the test
-   npm run test:e2e
+## Running the test
+npm run test:e2e
+
+## Notes
+The test uses Node's built-in test runner, not Jest.
+If you'd like to run with Playwright's test runner, the config file (playwright.config.js) is already included.
+To re-run the test, make sure the browser closes properly between runs.
 
