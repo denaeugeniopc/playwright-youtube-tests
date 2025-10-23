@@ -3,11 +3,11 @@
 This project is an end-to-end automated test for YouTube website(https://www.youtube.com), built with **Playwright** and **Node's built-in test runner ('node:test')**.
 
 The test covers:
-> Searching for a video and atleast one result is returned
-> Playing and pausing (with ad skip handling)
-> Seeking/Skipping forward in the video
-> Taking a screenshot while the video is playing
-> Verifying the video title
+1. Searching for a video and atleast one result is returned
+2. Playing and pausing (with ad skip handling)
+3. Seeking/Skipping forward in the video
+4. Taking a screenshot while the video is playing
+5. Verifying the video title
 
 ---
 

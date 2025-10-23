@@ -9,7 +9,7 @@ export default defineConfig({
     video: 'off',
     trace: 'on-first-retry',
     launchOptions: {
-      slowMo: 500, // 👈 slows actions by 500ms so you can watch them happen
+      slowMo: 500, // slows actions by 500ms so you can watch them happen
     },
   },
 });
